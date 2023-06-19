@@ -10,6 +10,9 @@ public class Main {
         rMotor.setPower(0.5);
 
         Sleep.forMilliseconds(3000);
+        
+        lMotor.setPower(0);
+        rMotor.setPower(0);
 }
 
 }
